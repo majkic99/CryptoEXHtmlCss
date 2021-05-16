@@ -1,10 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand rafdex" href="#">RAFDex</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="LandingPage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="buy.html">Buy Crypto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="markets.html">All markets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="leverage.html">Leverage Trading</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="defi.html">DeFi protocols</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="wallet.html">Wallet</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    USD$
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="LandingPageEur.html">EUR€</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="jumbotron text-center">
+    <h1 class="display-4 rafdex">RAFDex</h1>
+    <br>
+    <div class="jumbotron text-center">
+        <h2>The world's most comprehensive cryptocurrency API</h2>
+    </div>
+    <div class="card" >
+        <div class="card-body">
+            <h2 class="card-title">Free</h2>
+            <p class="card-text">
+            <h3>Because we believe data should be democratized</h3>
+                <br>
+                100% Free crypto API<br>
+                No keys required<br>
+                Publicly available</p>
+        </div>
+    </div>
+    <div class="card" >
+        <div class="card-body">
+            <h2 class="card-title">Reliable</h2>
+            <p class="card-text">
+            <h3>Cryptocurrency specialists working hard to bring top notch cryptocurrency data</h3>
+                <br>
+            In operation since early 2014<br>
+            Generous rate limits with up to 100 requests/minute<br>
+            Extensive market data</p>
+        </div>
+    </div>
+    <div class="card" >
+        <div class="card-body">
+            <h2 class="card-title">Comprehensive</h2>
+            <p class="card-text">
+            <h3>All the info you'll ever need at your fingertips</h3>
+                <br>
+            Track over 7,000 coins <br>
+            Comprehensive historical data<br>
+            21 endpoints and more coming soon<br></p>
+        </div>
+    </div>
+    <div class="jumbotron text-center">
+        <h2>Trusted by industry leaders</h2>
+    </div>
+    <div class="card" >
+        <img class="card-img-top" src="img/scan.webp" alt="Card image cap">
+        <div class="card-body">
+            <p>The RAFDex data market APIs are a set of robust APIs that developers can use to not only enhance their existing apps and services but also to build advanced crypto market apps. The team is also responsive to feedback and the occasions that we did these were quickly implemented into their api services.</p>
+            <p>Matthew Tan <br>
+                CEO, Etherscan</p>
+        </div>
+    </div>
+    <div class="card" >
+        <img class="card-img-top" src="img/mew.webp" alt="Card image cap">
+        <div class="card-body">
+            <p>Being in crypto space, our users expect us to provide the best service in the space. This includes having streaming crypto prices, price charts based on different time variations and providing these thousands of data points in a fast and secure manner. This is why MEW use RAFDex as they are the best in the cryptospace for all crypto pricing API needs.</p>
+            <p>Kosala <br>
+                CEO, MyEtherwallet</p>
+        </div>
+    </div>
+    <div class="card" >
+        <img class="card-img-top" src="img/mycrypto.webp" alt="Card image cap">
+        <div class="card-body">
+            <p>CoinGecko is one of our favorite teams in this space and using their API has been a huge improvement for our new beta.mycrypto.com. There are few reliable sources of this information and RAFDex's data is extensive and easy to implement. We at the team love it and recommend it to others</p>
+            <p>Taylor Monahan <br>
+                CEO, MyCrypto</p>
+        </div>
+    </div>
+    <br>
+    <h1 style="padding:50px"> <a href="#"> Explore our documentation </a></h1>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <h1 class="rafdex" >RAFDex</h1>
+                <small class="d-block mb-3 text-muted">© 2021</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About us</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="about.html">About</a></li>
+                    <li><a class="text-muted" href="careers.html">Careers</a></li>
+                    <li><a class="text-muted" href="devs.html">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="community.html">Community</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Support</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="feedback.html">Give us feedback</a></li>
+                    <li><a class="text-muted" href="support.html">Support Center</a></li>
+                    <li><a class="text-muted" href="request.html">Submit a request</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Info</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="team.html">Team</a></li>
+                    <li><a class="text-muted" href="locations.html">Locations</a></li>
+                    <li><a class="text-muted" href="privacy.html">Privacy</a></li>
+                    <li><a class="text-muted" href="terms.html">Terms</a></li>
+                    <li><a class="text-muted" href="legal.html">Legal</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
 
 </body>
+
+
 </html>
