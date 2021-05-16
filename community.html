@@ -1,10 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand rafdex" href="#">RAFDex</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="LandingPage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="buy.html">Buy Crypto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="markets.html">All markets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="leverage.html">Leverage Trading</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="defi.html">DeFi protocols</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="wallet.html">Wallet</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    USD$
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="LandingPageEur.html">EUR€</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="jumbotron text-center">
+    <h1 class="display-4 rafdex">RAFDex</h1>
+    <div class="about-div">
+        <h2> Community </h2>
+        <p> Without you, we wouldn't exist. Join our quickly growing community and spread the word.</p>
+        <h2>Follow us on our social media!</h2>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <br>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+        <a href="#" class="fa fa-skype"></a>
+        <a href="#" class="fa fa-android"></a>
+        <br>
+        <a href="#" class="fa fa-dribbble"></a>
+        <a href="#" class="fa fa-vimeo"></a>
+        <a href="#" class="fa fa-tumblr"></a>
+        <a href="#" class="fa fa-vine"></a>
+        <a href="#" class="fa fa-foursquare"></a>
+        <br>
+        <a href="#" class="fa fa-stumbleupon"></a>
+        <a href="#" class="fa fa-flickr"></a>
+        <a href="#" class="fa fa-yahoo"></a>
+        <a href="#" class="fa fa-reddit"></a>
+        <a href="#" class="fa fa-rss"></a>
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <h1 class="rafdex" >RAFDex</h1>
+                <small class="d-block mb-3 text-muted">© 2021</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About us</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="about.html">About</a></li>
+                    <li><a class="text-muted" href="careers.html">Careers</a></li>
+                    <li><a class="text-muted" href="devs.html">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="community.html">Community</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Support</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="feedback.html">Give us feedback</a></li>
+                    <li><a class="text-muted" href="support.html">Support Center</a></li>
+                    <li><a class="text-muted" href="request.html">Submit a request</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Info</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="team.html">Team</a></li>
+                    <li><a class="text-muted" href="locations.html">Locations</a></li>
+                    <li><a class="text-muted" href="privacy.html">Privacy</a></li>
+                    <li><a class="text-muted" href="terms.html">Terms</a></li>
+                    <li><a class="text-muted" href="legal.html">Legal</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
 
 </body>
+
+
 </html>

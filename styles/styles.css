@@ -29,12 +29,17 @@ p.neg {
     position: absolute;
     z-index: 50;
     max-width: 270px;
+    overflow: scroll;
 }
 
 .quiz-graph {
     padding: 10px;
     height: 370px;
     width: 100%;
+    overflow: scroll;
+}
+.slds-p-top--medium{
+    overflow: scroll;
 }
 
 .quiz-graph .x-labels {
@@ -217,7 +222,6 @@ padding:2%
 }
 .card{
     display: inline-block;
-    width:30%;
     background-color: lightgray;
 }
 .card-img-top{
