@@ -14,7 +14,7 @@
     <!-- JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/buy.css">
 </head>
 
 <body>
@@ -70,6 +70,81 @@
 <div class="jumbotron text-center">
     <h1 class="display-4 rafdex">RAFDex</h1>
 
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-11">
+                <div class="card card0 rounded-0">
+                    <div class="row">
+                        <div class="col-md-5 d-md-block  box">
+                            <div class="card rounded-0 border-0 card1" id="bill">
+                                <h3 id="heading1">Payment Summary</h3>
+                                <div class="row">
+                                    <div class="col-lg-7 col-8 mt-4 line pl-4">
+                                        <h2 class="bill-head">Cardano </h2> <small class="bill-date"><input type="number" placeholder="300" class="placeicon" minlength="3" maxlength="3"></small>
+                                    </div>
+                                    <div class="col-lg-5 col-4 mt-4">
+                                        <h2 class="bill-head px-xl-5 px-lg-4">ADA</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-7 col-8 mt-4 line pl-4">
+                                        <h2 class="bill-head">Bitcoin</h2> <small class="bill-date"><input type="number" placeholder="0.3" class="placeicon" minlength="3" maxlength="3"></small>
+                                    </div>
+                                    <div class="col-lg-5 col-4 mt-4">
+                                        <h2 class="bill-head px-xl-5 px-lg-4">BTC</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-7 col-8 mt-4 line pl-4">
+                                        <h2 class="bill-head">Ether</h2> <small class="bill-date"><input type="number" placeholder="3" class="placeicon" minlength="3" maxlength="3"></small><br>
+                                    </div>
+                                    <div class="col-lg-5 col-4 mt-4">
+                                        <h2 class="bill-head px-xl-5 px-lg-4">ETH</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-7 col-8 mt-4 line pl-4">
+                                        <h2 class="bill-head">Dogecoin</h2> <small class="bill-date"><input type="number" placeholder="3000" class="placeicon" minlength="3" maxlength="3"></small>
+                                    </div>
+                                    <div class="col-lg-5 col-4 mt-4">
+                                        <h2 class="bill-head px-xl-5 px-lg-4">DOGE</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 red-bg">
+                                        <p class="bill-date" id="total-label">Total Price</p>
+                                        <h2 class="bill-head" id="total">$ 45232.65</h2> <small class="bill-date" id="total-label">Price includes all taxes</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12 p-0 box">
+                            <div class="card rounded-0 border-0 card2" id="paypage">
+                                <div class="form-card">
+                                    <h2 id="heading2" class="text-danger">Payment Method</h2>
+                                    <div class="radio-group">
+                                        <div class='radio' data-value="credit"><img src="https://i.imgur.com/28akQFX.jpg" width="200px" height="60px"></div>
+                                        <div class='radio' data-value="paypal"><img src="https://i.imgur.com/5QFsx7K.jpg" width="200px" height="60px"></div> <br>
+                                    </div> <label class="pay">Name on Card</label> <input type="text" name="holdername" placeholder="John Smith">
+                                    <div class="row">
+                                        <div class="col-8 col-md-6"> <label class="pay">Card Number</label> <input type="text" name="cardno" id="cr_no" placeholder="0000-0000-0000-0000" minlength="19" maxlength="19"> </div>
+                                        <div class="col-4 col-md-6"> <label class="pay">CVV</label> <input type="password" name="cvcpwd" placeholder="&#9679;&#9679;&#9679;" class="placeicon" minlength="3" maxlength="3"> </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12"> <label class="pay">Expiration Date</label> </div>
+                                        <div class="col-md-12"> <input type="text" name="exp" id="exp" placeholder="MM/YY" minlength="5" maxlength="5"> </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6"> <input type="submit" value="MAKE A PAYMENT &nbsp; &#xf178;" class="btn btn-info placeicon"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
