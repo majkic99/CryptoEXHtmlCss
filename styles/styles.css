@@ -227,3 +227,11 @@ padding:2%
 .card-img-top{
     height:130px;
 }
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
